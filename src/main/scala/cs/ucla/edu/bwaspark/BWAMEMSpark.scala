@@ -281,6 +281,7 @@ object BWAMEMSpark {
     
     // environment setup
     if(command == "upload-fastq") {
+      //xubo245: can add parameter
       val conf = new SparkConf().setAppName("Cloud-Scale BWAMEM: upload")
       val sc = new SparkContext(conf)
 
@@ -296,6 +297,7 @@ object BWAMEMSpark {
       println("Upload FASTQ to HDFS Finished!!!")
     }
     else if(command == "cs-bwamem") {
+      //xubo245: can add parameter
       val conf = new SparkConf().setAppName("Cloud-Scale BWAMEM: cs-bwamem")
       val sc = new SparkContext(conf)
       
@@ -307,6 +309,7 @@ object BWAMEMSpark {
       exit(1)
     }
     else if(command == "cs-bwamem-profile") {
+      //xubo245: can add parameter
       val conf = new SparkConf().setAppName("Cloud-Scale BWAMEM: cs-bwamem-profile")
       val sc = new SparkContext(conf)
       
@@ -318,6 +321,7 @@ object BWAMEMSpark {
       exit(1)
     }
     else if(command == "merge") {
+      //xubo245: can add parameter
       val conf = new SparkConf().setAppName("Cloud-Scale BWAMEM: merge").set("spark.serializer", "org.apache.spark.serializer.KryoSerializer").set("spark.shuffle.consolidateFiles", "true")
       val sc = new SparkContext(conf)
 
@@ -325,6 +329,7 @@ object BWAMEMSpark {
       adamRecords.adamParquetSave(sortArgs(2))
     }
     else if(command == "sort") {
+      //xubo245: can add parameter
       val conf = new SparkConf().setAppName("Cloud-Scale BWAMEM: sort").set("spark.serializer", "org.apache.spark.serializer.KryoSerializer").set("spark.shuffle.consolidateFiles", "true")
       val sc = new SparkContext(conf)
 

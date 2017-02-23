@@ -121,6 +121,7 @@ class FASTQLocalFileLoader(batchedLineNum: Int) {
           records = records :+ record
         }
         else {
+          //xubo245：可以合并
           val record = new FASTQRecord(name, seq, quality, seqLength, encoder.encode( CharBuffer.wrap("") ))
           records = records :+ record
         }
@@ -495,6 +496,7 @@ class FASTQLocalFileLoader(batchedLineNum: Int) {
             println("Waiting for I/O")
             ioWaitingTime += 1
             Thread.sleep(1000)   // sleep for one second
+            //xubo245:为什么？
           } catch {
             case e: InterruptedException => Thread.currentThread.interrupt
           }

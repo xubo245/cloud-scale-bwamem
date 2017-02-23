@@ -1,0 +1,351 @@
+2017-02-23 18:19:12 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-02-23 18:19:12 INFO  Slf4jLogger:80 - Slf4jLogger started
+2017-02-23 18:19:12 INFO  Remoting:74 - Starting remoting
+2017-02-23 18:19:12 INFO  Remoting:74 - Remoting started; listening on addresses :[akka.tcp://sparkDriver@202.38.84.28:7839]
+2017-02-23 18:19:13 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:19:13 INFO  AbstractConnector:338 - Started SocketConnector@0.0.0.0:7840
+2017-02-23 18:19:13 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:19:13 INFO  AbstractConnector:338 - Started SelectChannelConnector@0.0.0.0:4040
+2017-02-23 18:19:13 INFO  ADAMContext:695 - Loading hdfs://219.219.220.149:9000/xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c10000Nhs20Paired12P1k2.adam as Parquet of AlignmentRecords.
+2017-02-23 18:19:13 INFO  ADAMContext:144 - Reading the ADAM file at hdfs://219.219.220.149:9000/xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c10000Nhs20Paired12P1k2.adam to create RDD
+2017-02-23 18:19:14 WARN  :139 - Your hostname, xubo-PC resolves to a loopback/non-reachable address: fe80:0:0:0:200:5efe:ca26:541c%20, but we couldn't find any external IP address!
+2017-02-23 18:19:15 INFO  FileInputFormat:281 - Total input paths to process : 1
+2017-02-23 18:19:16 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:19:17 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:19:17 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static/sql,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/api,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+2017-02-23 18:19:17 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs,null}
+2017-02-23 18:19:17 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Shutting down remote daemon.
+2017-02-23 18:19:17 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Remote daemon shut down; proceeding with flushing remote transports.
+2017-02-23 18:19:17 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Remoting shut down.
+2017-02-23 18:21:20 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-02-23 18:21:21 INFO  Slf4jLogger:80 - Slf4jLogger started
+2017-02-23 18:21:21 INFO  Remoting:74 - Starting remoting
+2017-02-23 18:21:21 INFO  Remoting:74 - Remoting started; listening on addresses :[akka.tcp://sparkDriver@202.38.84.28:7953]
+2017-02-23 18:21:21 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:21:21 INFO  AbstractConnector:338 - Started SocketConnector@0.0.0.0:7954
+2017-02-23 18:21:21 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:21:21 INFO  AbstractConnector:338 - Started SelectChannelConnector@0.0.0.0:4040
+2017-02-23 18:21:22 INFO  ADAMContext:695 - Loading /xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c1000000Nhs20Paired12P16bn5000000t1k1.adam as Parquet of AlignmentRecords.
+2017-02-23 18:21:22 INFO  ADAMContext:144 - Reading the ADAM file at /xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c1000000Nhs20Paired12P16bn5000000t1k1.adam to create RDD
+2017-02-23 18:21:23 WARN  :139 - Your hostname, xubo-PC resolves to a loopback/non-reachable address: fe80:0:0:0:200:5efe:ca26:541c%20, but we couldn't find any external IP address!
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static/sql,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/api,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+2017-02-23 18:21:23 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs,null}
+2017-02-23 18:21:38 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-02-23 18:21:38 INFO  Slf4jLogger:80 - Slf4jLogger started
+2017-02-23 18:21:38 INFO  Remoting:74 - Starting remoting
+2017-02-23 18:21:38 INFO  Remoting:74 - Remoting started; listening on addresses :[akka.tcp://sparkDriver@202.38.84.28:8018]
+2017-02-23 18:21:38 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:21:38 INFO  AbstractConnector:338 - Started SocketConnector@0.0.0.0:8019
+2017-02-23 18:21:39 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:21:39 INFO  AbstractConnector:338 - Started SelectChannelConnector@0.0.0.0:4040
+2017-02-23 18:21:39 INFO  ADAMContext:695 - Loading /xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c1000000Nhs20Paired12P16bn5000000t1k1.adam/0 as Parquet of AlignmentRecords.
+2017-02-23 18:21:39 INFO  ADAMContext:144 - Reading the ADAM file at /xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c1000000Nhs20Paired12P16bn5000000t1k1.adam/0 to create RDD
+2017-02-23 18:21:40 WARN  :139 - Your hostname, xubo-PC resolves to a loopback/non-reachable address: fe80:0:0:0:200:5efe:ca26:541c%20, but we couldn't find any external IP address!
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static/sql,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/api,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+2017-02-23 18:21:41 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs,null}
+2017-02-23 18:21:55 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-02-23 18:21:55 INFO  Slf4jLogger:80 - Slf4jLogger started
+2017-02-23 18:21:55 INFO  Remoting:74 - Starting remoting
+2017-02-23 18:21:56 INFO  Remoting:74 - Remoting started; listening on addresses :[akka.tcp://sparkDriver@202.38.84.28:8082]
+2017-02-23 18:21:56 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:21:56 INFO  AbstractConnector:338 - Started SocketConnector@0.0.0.0:8083
+2017-02-23 18:21:56 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:21:56 INFO  AbstractConnector:338 - Started SelectChannelConnector@0.0.0.0:4040
+2017-02-23 18:21:56 INFO  ADAMContext:695 - Loading hdfs://219.219.220.149:9000/xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c1000000Nhs20Paired12P16bn5000000t1k1.adam/0 as Parquet of AlignmentRecords.
+2017-02-23 18:21:56 INFO  ADAMContext:144 - Reading the ADAM file at hdfs://219.219.220.149:9000/xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c1000000Nhs20Paired12P16bn5000000t1k1.adam/0 to create RDD
+2017-02-23 18:21:57 WARN  :139 - Your hostname, xubo-PC resolves to a loopback/non-reachable address: fe80:0:0:0:200:5efe:ca26:541c%20, but we couldn't find any external IP address!
+2017-02-23 18:21:58 INFO  FileInputFormat:281 - Total input paths to process : 16
+2017-02-23 18:21:59 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:00 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:01 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:01 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:01 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:01 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:02 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:02 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:02 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:03 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:03 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:04 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:04 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:04 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:04 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:04 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:05 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:05 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static/sql,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/api,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+2017-02-23 18:22:05 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs,null}
+2017-02-23 18:22:05 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Shutting down remote daemon.
+2017-02-23 18:22:05 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Remote daemon shut down; proceeding with flushing remote transports.
+2017-02-23 18:22:05 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Remoting shut down.
+2017-02-23 18:22:39 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-02-23 18:22:39 INFO  Slf4jLogger:80 - Slf4jLogger started
+2017-02-23 18:22:39 INFO  Remoting:74 - Starting remoting
+2017-02-23 18:22:39 INFO  Remoting:74 - Remoting started; listening on addresses :[akka.tcp://sparkDriver@202.38.84.28:8181]
+2017-02-23 18:22:39 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:22:39 INFO  AbstractConnector:338 - Started SocketConnector@0.0.0.0:8182
+2017-02-23 18:22:40 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:22:40 INFO  AbstractConnector:338 - Started SelectChannelConnector@0.0.0.0:4040
+2017-02-23 18:22:40 INFO  ADAMContext:695 - Loading hdfs://219.219.220.149:9000/xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c1000000Nhs20Paired12P16bn5000000t1k1.adam/ as Parquet of AlignmentRecords.
+2017-02-23 18:22:40 INFO  ADAMContext:144 - Reading the ADAM file at hdfs://219.219.220.149:9000/xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c1000000Nhs20Paired12P16bn5000000t1k1.adam/ to create RDD
+2017-02-23 18:22:41 WARN  :139 - Your hostname, xubo-PC resolves to a loopback/non-reachable address: fe80:0:0:0:200:5efe:ca26:541c%20, but we couldn't find any external IP address!
+2017-02-23 18:22:42 INFO  FileInputFormat:281 - Total input paths to process : 2
+2017-02-23 18:22:43 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:43 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:44 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:45 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:45 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:45 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:46 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:46 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:46 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:47 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:47 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:47 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:48 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:48 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:48 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:48 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:49 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:49 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:49 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:49 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:50 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:50 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:50 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:50 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:50 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:50 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:51 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:51 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:51 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:52 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:52 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:52 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:52 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:52 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static/sql,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/api,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+2017-02-23 18:22:52 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs,null}
+2017-02-23 18:22:52 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Shutting down remote daemon.
+2017-02-23 18:22:52 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Remote daemon shut down; proceeding with flushing remote transports.
+2017-02-23 18:22:53 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Remoting shut down.
+2017-02-23 18:22:56 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-02-23 18:22:57 INFO  Slf4jLogger:80 - Slf4jLogger started
+2017-02-23 18:22:57 INFO  Remoting:74 - Starting remoting
+2017-02-23 18:22:57 INFO  Remoting:74 - Remoting started; listening on addresses :[akka.tcp://sparkDriver@202.38.84.28:8286]
+2017-02-23 18:22:57 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:22:57 INFO  AbstractConnector:338 - Started SocketConnector@0.0.0.0:8287
+2017-02-23 18:22:57 INFO  Server:272 - jetty-8.y.z-SNAPSHOT
+2017-02-23 18:22:57 INFO  AbstractConnector:338 - Started SelectChannelConnector@0.0.0.0:4040
+2017-02-23 18:22:57 INFO  ADAMContext:695 - Loading hdfs://219.219.220.149:9000/xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c1000000Nhs20Paired12P16bn5000000t1k1.adam/ as Parquet of AlignmentRecords.
+2017-02-23 18:22:57 INFO  ADAMContext:144 - Reading the ADAM file at hdfs://219.219.220.149:9000/xubo/project/alignment/cs-bwamem/input/fastq/newg38L50c1000000Nhs20Paired12P16bn5000000t1k1.adam/ to create RDD
+2017-02-23 18:22:58 WARN  :139 - Your hostname, xubo-PC resolves to a loopback/non-reachable address: fe80:0:0:0:200:5efe:ca26:541c%20, but we couldn't find any external IP address!
+2017-02-23 18:22:59 INFO  FileInputFormat:281 - Total input paths to process : 2
+2017-02-23 18:23:01 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:01 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:02 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:03 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:03 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:03 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:03 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:03 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:04 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:04 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:04 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:05 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:05 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:05 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:05 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:06 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:06 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:06 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:07 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:07 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:07 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:07 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:07 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:08 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:08 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:08 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:08 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:08 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:08 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:09 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:09 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:09 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:09 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:09 INFO  CodecPool:179 - Got brand-new decompressor [.gz]
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static/sql,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/execution,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/SQL,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/api,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/static,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/executors,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/environment,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/storage,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/stages,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+2017-02-23 18:23:09 INFO  ContextHandler:843 - stopped o.s.j.s.ServletContextHandler{/jobs,null}
+2017-02-23 18:23:10 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Shutting down remote daemon.
+2017-02-23 18:23:10 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Remote daemon shut down; proceeding with flushing remote transports.
+2017-02-23 18:23:10 INFO  RemoteActorRefProvider$RemotingTerminator:74 - Remoting shut down.

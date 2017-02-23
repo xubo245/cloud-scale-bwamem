@@ -25,5 +25,8 @@ class UploadFASTQCommand {
   var inputFASTQFilePath2: String = ""  // the second input path of the FASTQ file in the local file system (for pair-end)
   var outFileHDFSPath: String = ""      // the root path of the output FASTQ files in HDFS
   var batchedNum: Int = 250000          // (Optional) the number of lines to be read in one group (batch)
+  //xubo245: 可以省去其他打印
+  override def toString = s"UploadFASTQCommand(isPairEnd=$isPairEnd, filePartitionNum=$filePartitionNum, inputFASTQFilePath1=$inputFASTQFilePath1, inputFASTQFilePath2=$inputFASTQFilePath2, outFileHDFSPath=$outFileHDFSPath, batchedNum=$batchedNum)"
+
 }
 
