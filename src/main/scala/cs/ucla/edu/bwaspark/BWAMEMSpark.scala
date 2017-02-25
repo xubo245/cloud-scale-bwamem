@@ -276,6 +276,7 @@ object BWAMEMSpark {
     else if(command == "cs-bwamem-profile") bwamemArgs = bwamemCmdLineParser(argsList.tail)
     else { 
       println("Unknown command " + command)
+      sc.stop()
       exit(1)
     }
     
@@ -304,6 +305,7 @@ object BWAMEMSpark {
 
       // NOTE: Some of the Spark tasks are in "GET RESULT" status and cause the pending state... 
       //       However, the data are returned. Therefore, we enforce program to exit.
+      sc.stop()
       exit(1)
     }
     else if(command == "cs-bwamem-profile") {
@@ -315,6 +317,7 @@ object BWAMEMSpark {
 
       // NOTE: Some of the Spark tasks are in "GET RESULT" status and cause the pending state... 
       //       However, the data are returned. Therefore, we enforce program to exit.
+      sc.stop()
       exit(1)
     }
     else if(command == "merge") {
@@ -331,6 +334,7 @@ object BWAMEMSpark {
       val adamRecords = Sort(sc, sortArgs(0), sortArgs(1), coalesceFactor)
       adamRecords.adamParquetSave(sortArgs(2))
     }
+    sc.stop()
 
   } 
 }
